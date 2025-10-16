@@ -1,44 +1,42 @@
-# 📊 Proyecto ETL: Análisis de Ventas en Fintech
+# 📊 Fintech Sales ETL Project
 
-Este proyecto simula un flujo de **ingeniería de datos** para una empresa fintech ficticia.  
-Extrae datos de ventas y clientes desde múltiples fuentes, los limpia, los carga en un almacén de datos (PostgreSQL) y genera un informe automatizado con métricas clave.
-
----
-
-## 🚀 Funcionalidades
-
-- ✅ **Extracción**: Lectura de datos desde CSV y Excel.
-- ✅ **Transformación**: Limpieza, conversión de tipos, combinación de fuentes y cálculo de métricas derivadas.
-- ✅ **Carga**: Inserción en base de datos PostgreSQL con creación automática de tabla.
-- ✅ **Automatización**: Generación de informe resumen en consola (ingresos por región, producto más vendido, etc.).
+This project simulates a data engineering pipeline for a fictional fintech company.  
+It extracts sales and customer data from multiple sources, cleans it, loads it into a data warehouse (PostgreSQL), and generates an automated report with key metrics.
 
 ---
 
-## 🛠️ Tecnologías utilizadas
+## 🚀 Features
 
-- **Lenguaje**: Python 3.x
-- **Librerías**:
-  - `pandas` – Procesamiento y análisis de datos
-  - `psycopg2-binary` – Conexión a PostgreSQL
-  - `openpyxl` – Lectura de archivos Excel (.xlsx)
-- **Base de datos**: PostgreSQL
-- **Gestión de entorno**: `python-dotenv` para variables de entorno seguras
+- ✅ **Extraction**: Reads data from CSV and Excel files.
+- ✅ **Transformation**: Cleans data, converts data types, merges sources, and computes derived metrics.
+- ✅ **Loading**: Inserts data into a PostgreSQL database with automatic table creation.
+- ✅ **Automation**: Generates a summary report in the console (revenue by region, top-selling product, etc.).
 
 ---
 
-## 🔧 Requisitos previos
+## 🛠️ Technologies Used
 
-- [PostgreSQL](https://www.postgresql.org/download/) instalado y ejecutándose
-- Base de datos llamada `fintech_db` creada por el usuario
-- Usuario `postgres` con contraseña conocida por el usuario
-
-> 💡 ¿No tienes PostgreSQL? [Guía rápida de instalación para Windows](https://www.postgresql.org/download/windows/)
+- **Language**: Python 3.x  
+- **Libraries**:
+  - `pandas` – Data processing and analysis
+  - `psycopg2-binary` – PostgreSQL database adapter
+  - `openpyxl` – Excel (.xlsx) file support
+- **Database**: PostgreSQL
+- **Environment Management**: `python-dotenv` for secure environment variables
 
 ---
 
-## ⚙️ Configuración local
+## 🔧 Prerequisites
 
-1. **Clona el repositorio**
+- [PostgreSQL](https://www.postgresql.org/download/) installed and running
+- A database named `fintech_db` created
+- `postgres` user with a known password
+
+---
+
+## ⚙️ Local Setup
+
+1. **Clone the repository**
    ```bash
-   git clone https://github.com/tu-usuario/fintech-etl-proyecto.git
-   cd fintech-etl-proyecto
+   git clone https://github.com/usuario-Juan/fintech-etl-project.git
+   cd fintech-etl-project
