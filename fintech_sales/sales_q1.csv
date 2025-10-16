@@ -1,0 +1,6 @@
+sales_id,date,product,amount,client_id
+1,2024-01-15,Personal Loan,1200.50,C1001
+2,2024-01-22,Credit Card,800.00,C1002
+3,2024-02-05,Life Insurance,450.75,C1003
+4,2024-02-18,Auto Loan,3200.00,C1004
+5,2024-03-10,Investment,5000.00,C1005
